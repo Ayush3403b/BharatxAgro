@@ -2,6 +2,7 @@
 
 import IndustrialFormulations from "@/components/industrydata";
 import { Pill, ChefHat, UtensilsCrossed } from "lucide-react";
+import Link from "next/link";
 import { Leaf, Handshake, ShieldCheck, BadgeCheck, ClipboardCheck, FileCheck, Award } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -506,9 +507,11 @@ export default function ProductsPage() {
 
                     </div>
 
-                    <button className="mt-10 rounded-full bg-[#123524] px-10 py-4 text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#0f2b1f]">
-                    Explore Product
-                    </button>
+                    <Link href="/pages/productlist/makhana">
+                        <button className="mt-10 rounded-full bg-[#123524] px-10 py-4 text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#0f2b1f]">
+                          Explore Product
+                        </button>
+                    </Link>
 
                 </div>
 
@@ -587,9 +590,11 @@ export default function ProductsPage() {
 
                     </div>
 
-                    <button className="mt-10 rounded-full border-2 border-[#123524] px-10 py-4 text-[#123524] transition-all duration-300 hover:bg-[#123524] hover:text-white">
-                    View Specifications
-                    </button>
+                    <Link href="/pages/productlist/moringa">
+                        <button className="mt-10 rounded-full border-2 border-[#123524] px-10 py-4 text-[#123524] transition-all duration-300 hover:bg-[#123524] hover:text-white">
+                            View Specifications
+                        </button>
+                    </Link>
 
                 </div>
 
@@ -759,9 +764,12 @@ export default function ProductsPage() {
 
                     </div>
 
-                    <button className="mt-10 rounded-full bg-[#123524] px-10 py-4 text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#0d281c]">
-                    Request Product Specs
-                    </button>
+                    <Link
+                        href="/pages/productlist/onion"
+                        className="mt-10 inline-block rounded-full bg-[#123524] px-10 py-4 text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+                    >
+                         Product Specs
+                    </Link>
 
                 </div>
 

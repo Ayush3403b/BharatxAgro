@@ -208,7 +208,7 @@ export default function IndustrialFormulations() {
 
                 </div>
 
-                {/* CTA */}
+                {/* CTA 
                 <div>
                     <button className="group/btn rounded-full border border-white/20 bg-white/10 px-6 py-3 text-sm uppercase tracking-[3px] text-white backdrop-blur-xl transition-all duration-500 hover:bg-[#d8b15a] hover:text-black">
 
@@ -219,7 +219,7 @@ export default function IndustrialFormulations() {
                     </span>
 
                     </button>
-                </div>
+                </div>*/}
 
                 </div>
 
