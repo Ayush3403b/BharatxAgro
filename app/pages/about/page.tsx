@@ -529,129 +529,129 @@ export default function About() {
         </div>
     </section>
 
-<section className="relative overflow-hidden bg-white py-32">
+    <section className="relative overflow-hidden bg-white py-32">
 
-  {/* Background Pattern */}
-  <div className="absolute inset-0 opacity-[0.03]">
-    <div className="h-full w-full bg-[radial-gradient(circle,#123524_1px,transparent_1px)] bg-[size:28px_28px]" />
-  </div>
+    {/* Background Pattern */}
+    <div className="absolute inset-0 opacity-[0.03]">
+        <div className="h-full w-full bg-[radial-gradient(circle,#123524_1px,transparent_1px)] bg-[size:28px_28px]" />
+    </div>
 
-  <div className="relative mx-auto max-w-7xl px-6">
+    <div className="relative mx-auto max-w-7xl px-6">
 
-    {/* Heading */}
-    <div className="mb-20 text-center">
+        {/* Heading */}
+        <div className="mb-20 text-center">
 
-      <span className="uppercase tracking-[5px] text-[#d8b15a]">
-        Why Choose BharatXAgro
-      </span>
+        <span className="uppercase tracking-[5px] text-[#d8b15a]">
+            Why Choose BharatXAgro
+        </span>
 
-      <h2 className="mt-4 font-serif text-5xl text-[#123524] md:text-6xl">
-        The BharatXAgro
-        <br />
-        Advantage
-      </h2>
+        <h2 className="mt-4 font-serif text-5xl text-[#123524] md:text-6xl">
+            The BharatXAgro
+            <br />
+            Advantage
+        </h2>
 
-      <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-500">
-        Combining trusted sourcing, export expertise and uncompromising
-        quality standards to deliver India's finest agricultural products
-        worldwide.
-      </p>
+        <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-500">
+            {`Combining trusted sourcing, export expertise and uncompromising
+            quality standards to deliver India's finest agricultural products
+            worldwide.`}
+        </p>
+
+        </div>
+
+        {/* Cards */}
+        <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
+
+        {[
+            {
+            icon: Sprout,
+            number: "01",
+            title: "Direct Farm Sourcing",
+            desc: "Strong relationships with farming communities ensure consistent quality and complete traceability.",
+            },
+
+            {
+            icon: Globe2,
+            number: "02",
+            title: "Global Export Expertise",
+            desc: "Serving international buyers with streamlined logistics, compliance and documentation support.",
+            },
+
+            {
+            icon: Leaf,
+            number: "03",
+            title: "Sustainable Practices",
+            desc: "Ethical sourcing and responsible agricultural methods that benefit farmers and ecosystems.",
+            },
+
+            {
+            icon: ShipWheel,
+            number: "04",
+            title: "Reliable Fulfillment",
+            desc: "Efficient processing, packaging and shipping to ensure on-time deliveries worldwide.",
+            },
+
+        ].map((item) => {
+
+            const Icon = item.icon;
+
+            return (
+
+            <div
+                key={item.title}
+                className="group relative overflow-hidden rounded-[32px] border border-[#123524]/10 bg-[#f7f4ee] p-8 transition-all duration-700 hover:-translate-y-3 hover:border-[#d8b15a]/30 hover:bg-white hover:shadow-[0_25px_70px_rgba(18,53,36,0.12)]"
+            >
+
+                {/* Glow */}
+                <div className="absolute -right-10 -top-10 h-32 w-32 rounded-full bg-[#d8b15a]/10 blur-3xl opacity-0 transition-all duration-700 group-hover:opacity-100" />
+
+                {/* Number */}
+                <div className="absolute right-6 top-6 text-5xl font-bold text-[#123524]/25 transition-all duration-500 group-hover:text-[#d8b15a]/40">
+                {item.number}
+                </div>
+
+                {/* Icon */}
+                <div className="relative z-10 flex h-16 w-16 items-center justify-center rounded-2xl bg-[#123524] text-white transition-all duration-500 group-hover:scale-110 group-hover:bg-[#d8b15a] group-hover:text-[#123524]">
+
+                <Icon size={30} />
+
+                </div>
+
+                {/* Content */}
+                <div className="relative z-10 mt-8">
+
+                <h3 className="text-2xl font-semibold text-[#123524]">
+                    {item.title}
+                </h3>
+
+                <p className="mt-4 leading-relaxed text-gray-500">
+                    {item.desc}
+                </p>
+
+                </div>
+
+                {/* Footer */}
+                <div className="relative z-10 mt-8 flex items-center gap-2 text-sm font-medium text-[#123524]">
+
+                Learn More
+
+                <ArrowUpRight
+                    size={16}
+                    className="transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1"
+                />
+
+                </div>
+
+            </div>
+
+            );
+        })}
+
+        </div>
 
     </div>
 
-    {/* Cards */}
-    <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
-
-      {[
-        {
-          icon: Sprout,
-          number: "01",
-          title: "Direct Farm Sourcing",
-          desc: "Strong relationships with farming communities ensure consistent quality and complete traceability.",
-        },
-
-        {
-          icon: Globe2,
-          number: "02",
-          title: "Global Export Expertise",
-          desc: "Serving international buyers with streamlined logistics, compliance and documentation support.",
-        },
-
-        {
-          icon: Leaf,
-          number: "03",
-          title: "Sustainable Practices",
-          desc: "Ethical sourcing and responsible agricultural methods that benefit farmers and ecosystems.",
-        },
-
-        {
-          icon: ShipWheel,
-          number: "04",
-          title: "Reliable Fulfillment",
-          desc: "Efficient processing, packaging and shipping to ensure on-time deliveries worldwide.",
-        },
-
-      ].map((item) => {
-
-        const Icon = item.icon;
-
-        return (
-
-          <div
-            key={item.title}
-            className="group relative overflow-hidden rounded-[32px] border border-[#123524]/10 bg-[#f7f4ee] p-8 transition-all duration-700 hover:-translate-y-3 hover:border-[#d8b15a]/30 hover:bg-white hover:shadow-[0_25px_70px_rgba(18,53,36,0.12)]"
-          >
-
-            {/* Glow */}
-            <div className="absolute -right-10 -top-10 h-32 w-32 rounded-full bg-[#d8b15a]/10 blur-3xl opacity-0 transition-all duration-700 group-hover:opacity-100" />
-
-            {/* Number */}
-            <div className="absolute right-6 top-6 text-5xl font-bold text-[#123524]/25 transition-all duration-500 group-hover:text-[#d8b15a]/40">
-              {item.number}
-            </div>
-
-            {/* Icon */}
-            <div className="relative z-10 flex h-16 w-16 items-center justify-center rounded-2xl bg-[#123524] text-white transition-all duration-500 group-hover:scale-110 group-hover:bg-[#d8b15a] group-hover:text-[#123524]">
-
-              <Icon size={30} />
-
-            </div>
-
-            {/* Content */}
-            <div className="relative z-10 mt-8">
-
-              <h3 className="text-2xl font-semibold text-[#123524]">
-                {item.title}
-              </h3>
-
-              <p className="mt-4 leading-relaxed text-gray-500">
-                {item.desc}
-              </p>
-
-            </div>
-
-            {/* Footer */}
-            <div className="relative z-10 mt-8 flex items-center gap-2 text-sm font-medium text-[#123524]">
-
-              Learn More
-
-              <ArrowUpRight
-                size={16}
-                className="transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1"
-              />
-
-            </div>
-
-          </div>
-
-        );
-      })}
-
-    </div>
-
-  </div>
-
-</section>
+    </section>
 
     <section className="bg-[#123524] py-32 overflow-hidden text-white">
         <div className="mx-auto max-w-7xl px-6">
@@ -854,87 +854,87 @@ export default function About() {
         </div>
     </section>
 
-<section className="bg-[#f7f4ee] py-32 overflow-hidden">
-  <div className="mx-auto max-w-7xl px-6">
+    <section className="bg-[#f7f4ee] py-32 overflow-hidden">
+    <div className="mx-auto max-w-7xl px-6">
 
-    {/* Header */}
-    <div className="mb-24 flex flex-col justify-between gap-10 md:flex-row md:items-end">
+        {/* Header */}
+        <div className="mb-24 flex flex-col justify-between gap-10 md:flex-row md:items-end">
 
-      <div className="max-w-2xl">
+        <div className="max-w-2xl">
 
-        <h2 className="font-serif text-5xl leading-tight text-[#123524] md:text-7xl">
-          From Bihar to the
-          <br />
-          World.
-        </h2>
+            <h2 className="font-serif text-5xl leading-tight text-[#123524] md:text-7xl">
+            From Bihar to the
+            <br />
+            World.
+            </h2>
 
-        <p className="mt-6 text-lg leading-relaxed text-[#123524]/70">
-          Our logistical network spans continents, ensuring
-          that the freshness of the Indian harvest arrives
-          on your doorstep within days, not weeks.
-        </p>
-
-      </div>
-
-      <a
-        href="/Aboutmap.png"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-block rounded-full border border-[#123524]/40 px-8 py-4 text-sm font-medium text-[#123524] transition-all duration-300 hover:bg-[#123524] hover:text-white"
-      >
-        View Global Map
-      </a>
-
-    </div>
-
-    {/* Map Container */}
-    <div className="relative overflow-hidden rounded-[28px] shadow-[0_20px_60px_rgba(0,0,0,0.08)]">
-
-      {/* Background Map */}
-      <img
-        src="/Aboutmap.png"
-        alt="Global Presence"
-        className="h-[420px] w-full object-cover grayscale opacity-70"
-      />
-
-      {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/10" />
-
-      {/* Stats Cards */}
-      <div className="absolute inset-0 flex items-center justify-center">
-
-        <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
-
-          {[
-            ["15+", "Countries"],
-            ["250+", "Retail Partners"],
-            ["3k+", "Farmers"],
-            ["24/7", "Support"],
-          ].map(([value, label]) => (
-            <div
-              key={label}
-              className="min-w-[130px] rounded-2xl border border-white/40 bg-white/40 p-8 text-center backdrop-blur-xl shadow-lg"
-            >
-
-              <h3 className="text-3xl font-serif text-[#123524]">
-                {value}
-              </h3>
-
-              <p className="mt-2 text-sm text-[#123524]/80">
-                {label}
-              </p>
-
-            </div>
-          ))}
+            <p className="mt-6 text-lg leading-relaxed text-[#123524]/70">
+            Our logistical network spans continents, ensuring
+            that the freshness of the Indian harvest arrives
+            on your doorstep within days, not weeks.
+            </p>
 
         </div>
 
-      </div>
+        <a
+            href="/Aboutmap.png"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block rounded-full border border-[#123524]/40 px-8 py-4 text-sm font-medium text-[#123524] transition-all duration-300 hover:bg-[#123524] hover:text-white"
+        >
+            View Global Map
+        </a>
+
+        </div>
+
+        {/* Map Container */}
+        <div className="relative overflow-hidden rounded-[28px] shadow-[0_20px_60px_rgba(0,0,0,0.08)]">
+
+        {/* Background Map */}
+        <img
+            src="/Aboutmap.png"
+            alt="Global Presence"
+            className="h-[420px] w-full object-cover grayscale opacity-70"
+        />
+
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-black/10" />
+
+        {/* Stats Cards */}
+        <div className="absolute inset-0 flex items-center justify-center">
+
+            <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
+
+            {[
+                ["15+", "Countries"],
+                ["250+", "Retail Partners"],
+                ["3k+", "Farmers"],
+                ["24/7", "Support"],
+            ].map(([value, label]) => (
+                <div
+                key={label}
+                className="min-w-[130px] rounded-2xl border border-white/40 bg-white/40 p-8 text-center backdrop-blur-xl shadow-lg"
+                >
+
+                <h3 className="text-3xl font-serif text-[#123524]">
+                    {value}
+                </h3>
+
+                <p className="mt-2 text-sm text-[#123524]/80">
+                    {label}
+                </p>
+
+                </div>
+            ))}
+
+            </div>
+
+        </div>
+
+        </div>
 
     </div>
-
-  </div>
-</section>    
+    </section>    
 
     <section className="relative overflow-hidden bg-[#f7f4ee] py-32">
         <div className="mx-auto max-w-5xl px-6 text-center">
