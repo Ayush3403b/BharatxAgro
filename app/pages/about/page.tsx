@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 const certifications = [
   { name: "APEDA", icon: BadgeCheck },
@@ -959,9 +960,12 @@ export default function About() {
                 Request Catalog
             </button>
 
-            <button className="rounded-full border border-[#123524] px-10 py-4 text-[#123524] transition-all duration-300 hover:bg-[#123524] hover:text-white">
+            <Link
+                href="/pages/contact"
+                className="rounded-full border border-[#123524] px-10 py-4 text-[#123524] transition-all duration-300 hover:bg-[#123524] hover:text-white"
+            >
                 Contact Us
-            </button>
+            </Link>
 
             </div>
 

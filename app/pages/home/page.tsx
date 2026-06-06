@@ -50,13 +50,19 @@ export default function Home() {
               </p>
 
               <div className="mt-10 flex flex-wrap gap-4">
-                  <button className="rounded-full bg-[#d8b15a] px-8 py-4 font-medium text-black transition hover:scale-105">
-                  Explore Products
-                  </button>
+                  <Link
+                    href="/pages/products"
+                    className="rounded-full bg-[#d8b15a] px-8 py-4 font-medium text-black transition hover:scale-105"
+                  >
+                    Explore Products
+                  </Link>
 
-                  <button className="rounded-full border border-white px-8 py-4 text-white transition hover:bg-white hover:text-black">
-                  Our Process
-                  </button>
+                  <Link
+                    href="/pages/infrastructure"
+                    className="rounded-full border border-white px-8 py-4 text-white transition hover:bg-white hover:text-black"
+                  >
+                    Our Infrastructure
+                  </Link>
               </div>
               </div>
 
@@ -494,9 +500,11 @@ export default function Home() {
 
                 </div>
 
+                <Link href="/pages/inquiry">
                 <button className="mt-6 rounded-full bg-[#123524] px-10 py-4 text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#0d281c] hover:shadow-xl">
                   Inquire Now
                 </button>
+                </Link>
 
               </div>
             </div>
@@ -549,9 +557,11 @@ export default function Home() {
 
                 </div>
 
-                <button className="mt-6 rounded-full border-2 border-[#123524] px-10 py-4 text-[#123524] transition-all duration-300 hover:-translate-y-1 hover:bg-[#123524] hover:text-white">
-                  Bulk Specifications
-                </button>
+                <Link href="/pages/inquiry">
+                  <button className="mt-6 rounded-full border-2 border-[#123524] px-10 py-4 text-[#123524] transition-all duration-300 hover:-translate-y-1 hover:bg-[#123524] hover:text-white">
+                    Bulk inquiry
+                  </button>
+                </Link>
 
               </div>
 

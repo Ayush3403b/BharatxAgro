@@ -7,6 +7,7 @@ import { Sprout, Ship, FlaskConical, Factory, Package, Beaker,
     Truck, Leaf, ArrowRight, Download,
     FileText,
  } from "lucide-react";
+import Link from "next/link"; 
 export default function Infrastructure() {
   return (
     <main>
@@ -770,16 +771,18 @@ export default function Infrastructure() {
               {/* CTA Buttons */}
               <div className="mt-12 flex flex-wrap gap-5">
 
-                <button className="group flex items-center gap-3 rounded-full bg-[#123524] px-8 py-4 text-white transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_20px_50px_rgba(18,53,36,0.2)]">
+                <Link href="/pages/contact">
+                  <button className="group flex items-center gap-3 rounded-full bg-[#123524] px-8 py-4 text-white transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_20px_50px_rgba(18,53,36,0.2)]">
 
-                  Request Facility Tour
+                    Request Facility Tour
 
-                  <ArrowRight
-                    size={18}
-                    className="transition-transform duration-300 group-hover:translate-x-1"
-                  />
+                    <ArrowRight
+                      size={18}
+                      className="transition-transform duration-300 group-hover:translate-x-1"
+                    />
 
-                </button>
+                  </button>
+                </Link>
 
                 <button className="group flex items-center gap-3 rounded-full border border-[#123524]/20 bg-white px-8 py-4 text-[#123524] transition-all duration-500 hover:border-[#123524] hover:bg-[#123524] hover:text-white">
 

@@ -173,7 +173,7 @@ export default function Header() {
           {/* ── CTA Button ── */}
           <div className="hidden md:block">
             <Link href="/pages/inquiry"
-                className={`cta-btn rounded-full px-7 py-[10px] transition-all duration-400 hover:-translate-y-[2px] hover:shadow-[0_8px_30px_-4px_rgba(201,168,76,0.5)]
+                className={`rounded-full px-7 py-[10px] transition-all duration-400 hover:-translate-y-[2px] hover:shadow-[0_8px_30px_-4px_rgba(201,168,76,0.5)]
                   ${scrolled
                     ? "bg-[#123524] text-[#c9a84c] border border-[#123524]"
                     : "bg-[#c9a84c] text-[#0d2518] border border-[#c9a84c]"
@@ -249,7 +249,7 @@ export default function Header() {
 
               <div className="mobile-nav-item mt-3 pt-4 border-t border-[#123524]/8">
                 <Link href="/pages/inquiry" onClick={() => setMobileOpen(false)}
-                   className="cta-btn w-full rounded-full bg-[#123524] py-3 text-[#c9a84c] border border-[#123524] hover:shadow-[0_6px_24px_-4px_rgba(18,53,36,0.35)] transition-all duration-300 hover:-translate-y-[1px]">
+                   className="w-full rounded-full bg-[#123524] py-3 text-[#c9a84c] border border-[#123524] hover:shadow-[0_6px_24px_-4px_rgba(18,53,36,0.35)] transition-all duration-300 hover:-translate-y-[1px]">
                     Inquiry
                 </Link>
               </div>
