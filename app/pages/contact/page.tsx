@@ -255,14 +255,14 @@ export default function ContactPage() {
         className="relative flex min-h-screen items-center overflow-hidden"
       >
         <Image
-          src="/contact-hero.jpg"
+          src="/contacthero.png"
           alt="Contact BharatXAgro"
           fill
           priority
           className="object-cover scale-105"
         />
         {/* Cinematic gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-black/75 via-[#0b1f14]/60 to-[#123524]/80" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/25 via-[#0b1f14]/15 to-[#123524]/30" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0b1f14] via-transparent to-transparent" />
 
         {/* Decorative grain */}
