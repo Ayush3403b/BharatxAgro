@@ -605,10 +605,10 @@ export default function Home() {
       </section>
 
       {/* LOGISTICS SHOWCASE */}
-      <section className="bg-[#f4f1ea] py-36 overflow-hidden">
+      <section className="bg-[#f4f1ea] py-16 overflow-hidden">
         <div className="mx-auto max-w-7xl px-6">
 
-          <div className="mb-20 flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+          <div className="mb-10 flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
             <FadeIn direction="left">
               <span className="uppercase tracking-[4px] text-[#d8b15a]">Global Logistics</span>
               <h2 className="mt-4 font-serif text-5xl md:text-6xl text-[#123524]">Bridging Continents</h2>
@@ -626,7 +626,7 @@ export default function Home() {
                 <div className="h-full w-full bg-[radial-gradient(circle,#123524_1px,transparent_1px)] bg-[size:30px_30px]" />
               </div>
 
-              <div className="relative h-[650px]">
+              <div className="relative h-[500px]">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg"
                   alt="World Map"
@@ -634,36 +634,74 @@ export default function Home() {
                 />
 
                 {/* India */}
-                <div className="absolute left-[66%] top-[42%]">
+                <div className="absolute left-[62%] top-[41%]">
                   <div className="absolute h-5 w-5 animate-ping rounded-full bg-[#d8b15a]/30" />
                   <div className="relative h-5 w-5 rounded-full bg-[#d8b15a] shadow-[0_0_30px_rgba(216,177,90,0.8)]" />
                 </div>
 
                 {/* USA */}
-                <div className="absolute left-[26%] top-[35%]">
+                <div className="absolute left-[31%] top-[34%]">
                   <div className="h-4 w-4 rounded-full bg-[#123524] transition-transform duration-300 hover:scale-150" />
                 </div>
 
                 {/* Europe */}
-                <div className="absolute left-[50%] top-[28%]">
+                <div className="absolute left-[49%] top-[27%]">
                   <div className="h-4 w-4 rounded-full bg-[#123524] transition-transform duration-300 hover:scale-150" />
                 </div>
 
                 {/* UAE */}
-                <div className="absolute left-[57%] top-[47%]">
+                <div className="absolute left-[58%] top-[41%]">
                   <div className="h-4 w-4 rounded-full bg-[#123524] transition-transform duration-300 hover:scale-150" />
                 </div>
 
                 {/* Australia */}
-                <div className="absolute left-[78%] top-[68%]">
+                <div className="absolute left-[72%] top-[68%]">
                   <div className="h-4 w-4 rounded-full bg-[#123524] transition-transform duration-300 hover:scale-150" />
                 </div>
 
-                <svg className="absolute inset-0 h-full w-full" viewBox="0 0 1200 650">
-                  <path d="M700 310 Q500 180 250 220" stroke="#d8b15a" strokeWidth="3" fill="none" strokeDasharray="12 12" className="animate-route" />
-                  <path d="M700 315 Q650 170 580 160" stroke="#d8b15a" strokeWidth="3" fill="none" strokeDasharray="12 12" className="animate-route" />
-                  <path d="M700 310 Q720 250 640 260" stroke="#d8b15a" strokeWidth="3" fill="none" strokeDasharray="12 12" className="animate-route" />
-                  <path d="M700 310 Q920 380 980 480" stroke="#d8b15a" strokeWidth="3" fill="none" strokeDasharray="12 12" className="animate-route" />
+                <svg
+                  className="absolute inset-0 h-full w-full"
+                  viewBox="0 0 1170 650"
+                >
+                  {/* India → USA */}
+                  <path
+                    d="M800 280 C650 150 450 150 300 220"
+                    stroke="#d8b15a"
+                    strokeWidth="3"
+                    fill="none"
+                    strokeDasharray="10 10"
+                    className="animate-route"
+                  />
+
+                  {/* India → Europe */}
+                  <path
+                    d="M800 280 C700 180 620 130 590 170"
+                    stroke="#d8b15a"
+                    strokeWidth="3"
+                    fill="none"
+                    strokeDasharray="10 10"
+                    className="animate-route"
+                  />
+
+                  {/* India → UAE */}
+                  <path
+                    d="M800 280 C730 260 600 250 700 270"
+                    stroke="#d8b15a"
+                    strokeWidth="3"
+                    fill="none"
+                    strokeDasharray="10 10"
+                    className="animate-route"
+                  />
+
+                  {/* India → Australia */}
+                  <path
+                    d="M800 280 C900 330 980 380 950 440"
+                    stroke="#d8b15a"
+                    strokeWidth="3"
+                    fill="none"
+                    strokeDasharray="10 10"
+                    className="animate-route"
+                  />
                 </svg>
 
                 <div className="absolute bottom-8 left-8 rounded-[30px] bg-white/80 p-8 backdrop-blur-xl shadow-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
