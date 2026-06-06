@@ -309,7 +309,7 @@ export default function Footer() {
                   { label: "Moringa",      href: "/pages/productlist/moringa" },
                   { label: "Makhana",      href: "/pages/productlist/makhana" },
                   { label: "Onion Powder", href: "/pages/productlist/onion" },
-                  { label: "Mushrooms",    href: "/pages/productlist/mushrooms" },
+                  { label: "Mushrooms",    href: "/pages/productlist/mushroom" },
                 ].map((item) => (
                   <li key={item.href}>
                     <Link href={item.href} className="footer-link">{item.label}</Link>

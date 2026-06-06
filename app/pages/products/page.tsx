@@ -833,19 +833,29 @@ export default function ProductsPage() {
 
                     <div className="mt-8 flex gap-8">
 
+                        <div className="mt-8 flex flex-wrap items-center gap-8">
+
                         <div>
-                        <p className="text-xs uppercase tracking-[2px] text-white/50">
+                            <p className="text-xs uppercase tracking-[2px] text-white/50">
                             Shelf Life
-                        </p>
-                        <p>7–14 Days</p>
+                            </p>
+                            <p>7–14 Days</p>
                         </div>
 
                         <div>
-                        <p className="text-xs uppercase tracking-[2px] text-white/50">
+                            <p className="text-xs uppercase tracking-[2px] text-white/50">
                             Availability
-                        </p>
-                        <p>Year Round</p>
+                            </p>
+                            <p>Year Round</p>
                         </div>
+
+                        <Link href="/pages/productlist/mushroom">
+                            <button className="rounded-full bg-[#123524] px-10 py-4 text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#0f2b1f]">
+                            Explore Product
+                            </button>
+                        </Link>
+
+                    </div>                  
 
                     </div>
 
@@ -896,6 +906,11 @@ export default function ProductsPage() {
                         </p>
                         <p>Bulk Export</p>
                         </div>
+                          <Link href="/pages/productlist/mushroom">
+                            <button className="rounded-full bg-[#123524] px-10 py-4 text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#0f2b1f]">
+                            Explore Product
+                            </button>
+                        </Link>
 
                     </div>
 
