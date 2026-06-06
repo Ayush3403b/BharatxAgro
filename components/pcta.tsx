@@ -17,8 +17,8 @@ export default function ProductCTA({
   description,
   primaryText = "Request Bulk Quote",
   secondaryText = "Become a Partner",
-  primaryHref = "/inquiry",
-  secondaryHref = "/inquiry",
+  primaryHref = "/pages/inquiry",
+  secondaryHref = "/pages/contact",
 }: ProductCTAProps) {
   return (
     <section className="mx-auto max-w-7xl px-6 py-12">
