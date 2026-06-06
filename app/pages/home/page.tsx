@@ -12,6 +12,7 @@ import {
 } from "react-icons/gi";
 
 import { FaShip } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -276,13 +277,15 @@ export default function Home() {
                 </p>
               </div>
 
-              <button className="group hidden md:flex items-center gap-2 text-sm font-semibold tracking-[2px] text-[#123524] uppercase">
-                View All Products
+              <Link href="/pages/products">
+                <button className="group hidden md:flex items-center gap-2 text-sm font-semibold tracking-[2px] text-[#123524] uppercase">
+                  View All Products
 
-                <span className="transition-transform duration-300 group-hover:translate-x-1">
-                  →
-                </span>
-              </button>
+                  <span className="transition-transform duration-300 group-hover:translate-x-1">
+                    →
+                  </span>
+                </button>
+              </Link>
 
             </div>
 
@@ -315,13 +318,15 @@ export default function Home() {
                     sustainable farms in South India.
                   </p>
 
-                  <button className="group/btn mt-6 flex items-center gap-2 text-sm font-semibold uppercase tracking-[2px] text-[#d8b15a]">
-                    Learn More
+                  <Link href="/pages/productlist/moringa">
+                    <button className="group/btn mt-6 flex items-center gap-2 text-sm font-semibold uppercase tracking-[2px] text-[#d8b15a]">
+                      Learn More
 
-                    <span className="transition-transform duration-300 group-hover/btn:translate-x-1">
-                      →
-                    </span>
-                  </button>
+                      <span className="transition-transform duration-300 group-hover/btn:translate-x-1">
+                        →
+                      </span>
+                    </button>
+                  </Link>
 
                 </div>
               </div>
@@ -352,13 +357,15 @@ export default function Home() {
                     plant-based protein.
                   </p>
 
-                  <button className="group/btn mt-6 flex items-center gap-2 text-sm font-semibold uppercase tracking-[2px] text-[#d8b15a]">
-                    Learn More
+                  <Link href="/pages/productlist/makhana">
+                    <button className="group/btn mt-6 flex items-center gap-2 text-sm font-semibold uppercase tracking-[2px] text-[#d8b15a]">
+                      Learn More
 
-                    <span className="transition-transform duration-300 group-hover/btn:translate-x-1">
-                      →
-                    </span>
-                  </button>
+                      <span className="transition-transform duration-300 group-hover/btn:translate-x-1">
+                        →
+                      </span>
+                    </button>
+                  </Link>
 
                 </div>
               </div>
@@ -389,13 +396,15 @@ export default function Home() {
                     for international food standards.
                   </p>
 
-                  <button className="group/btn mt-6 flex items-center gap-2 text-sm font-semibold uppercase tracking-[2px] text-[#d8b15a]">
-                    Learn More
+                  <Link href="/pages/productlist/onion">
+                    <button className="group/btn mt-6 flex items-center gap-2 text-sm font-semibold uppercase tracking-[2px] text-[#d8b15a]">
+                      Learn More
 
-                    <span className="transition-transform duration-300 group-hover/btn:translate-x-1">
-                      →
-                    </span>
-                  </button>
+                      <span className="transition-transform duration-300 group-hover/btn:translate-x-1">
+                        →
+                      </span>
+                    </button>
+                  </Link>
 
                 </div>
               </div>

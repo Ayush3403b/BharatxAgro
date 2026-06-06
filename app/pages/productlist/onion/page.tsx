@@ -81,7 +81,7 @@ export default function OnionHero() {
     <>
       {/* Floating Decorations */}
 
-      <div className="pointer-events-none fixed inset-0 z-0 overflow-hidden">
+      <div className="pointer-events-none inset-0 z-0 overflow-hidden">
 
         <motion.div
           style={{
@@ -91,7 +91,7 @@ export default function OnionHero() {
           className="absolute -left-10 top-[15%] h-48 w-48 opacity-20"
         >
           <Image
-            src="/products/onion/onion-ring-1.png"
+            src="/Oring1.png"
             alt=""
             width={300}
             height={300}
@@ -107,7 +107,7 @@ export default function OnionHero() {
           className="absolute -right-12 bottom-[20%] h-64 w-64 opacity-15"
         >
           <Image
-            src="/onion/onion-ring-2.png"
+            src="/Oring2.png"
             alt=""
             width={400}
             height={400}
@@ -217,7 +217,7 @@ export default function OnionHero() {
           >
 
             <Image
-              src="/products/onion/onion-hero.jpg"
+              src="/onhero.png"
               alt="Onion Powder"
               width={900}
               height={700}
@@ -592,7 +592,7 @@ export default function OnionHero() {
 
               <div className="group h-48 overflow-hidden rounded-[24px]">
                 <Image
-                  src="/products/onion/snacks.jpg"
+                  src="/onuse1.png"
                   alt="Seasonings"
                   width={600}
                   height={500}
@@ -602,7 +602,7 @@ export default function OnionHero() {
 
               <div className="group h-64 overflow-hidden rounded-[24px]">
                 <Image
-                  src="/products/onion/soup.jpg"
+                  src="/onuse2.png"
                   alt="Soups"
                   width={600}
                   height={800}
@@ -618,7 +618,7 @@ export default function OnionHero() {
 
               <div className="group h-64 overflow-hidden rounded-[24px]">
                 <Image
-                  src="/products/onion/spices.jpg"
+                  src="/onuse3.png"
                   alt="Spice Blends"
                   width={600}
                   height={800}
@@ -628,7 +628,7 @@ export default function OnionHero() {
 
               <div className="group h-48 overflow-hidden rounded-[24px]">
                 <Image
-                  src="/products/onion/packaging.jpg"
+                  src="/onuse4.png"
                   alt="Packaging"
                   width={600}
                   height={500}
@@ -745,7 +745,7 @@ export default function OnionHero() {
               >
 
                 <Image
-                  src="/products/onion/industrial-packaging.jpg"
+                  src="/onpack.png"
                   alt="Industrial Packaging"
                   width={900}
                   height={700}

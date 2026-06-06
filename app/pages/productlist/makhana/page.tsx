@@ -379,7 +379,7 @@ export default function MakhanaHero() {
           "
         >
           <Image
-            src="/makhana.png"
+            src="/mahero.png"
             alt="Nutrition"
             fill
             className="
@@ -540,7 +540,7 @@ export default function MakhanaHero() {
           <div className="relative aspect-[4/5] overflow-hidden rounded-[32px] shadow-2xl">
 
             <Image
-              src="/products/makhana/wetlands.jpg"
+              src="/masource.png"
               alt="Wetlands of Bihar"
               fill
               className="object-cover transition duration-1000 hover:scale-105"
@@ -697,7 +697,7 @@ export default function MakhanaHero() {
           <div className="relative mb-8 h-64 overflow-hidden rounded-[32px]">
 
             <Image
-              src="/products/makhana/roasting.jpg"
+              src="/mapro1.png"
               alt="Manual Roasting"
               fill
               className="
@@ -736,7 +736,7 @@ export default function MakhanaHero() {
           <div className="relative mb-8 h-64 overflow-hidden rounded-[32px]">
 
             <Image
-              src="/products/makhana/cleaning.jpg"
+              src="/mapro2.png"
               alt="Precision Cleaning"
               fill
               className="
@@ -774,7 +774,7 @@ export default function MakhanaHero() {
           <div className="relative mb-8 h-64 overflow-hidden rounded-[32px]">
 
             <Image
-              src="/products/makhana/grading.jpg"
+              src="/mapro3.png"
               alt="Size Grading"
               fill
               className="
@@ -1083,7 +1083,7 @@ export default function MakhanaHero() {
           <div className="relative">
 
             <Image
-              src="/products/makhana/logistics.jpg"
+              src="/mapack.png"
               alt="Global Logistics Hub"
               width={900}
               height={900}
