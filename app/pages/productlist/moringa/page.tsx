@@ -17,6 +17,7 @@ import {
   ArrowRight,
   CheckCircle2,
 } from "lucide-react";
+import Link from "next/link";
 import ProductCTA from "@/components/pcta";
 
 export default function HeroSection() {
@@ -28,13 +29,13 @@ export default function HeroSection() {
       title: "Retail-Ready Packs",
       description:
         "100g, 250g, 500g Stand-up resealable pouches with private labeling options.",
-      image: "/products/moringa/retail-pack.jpg",
+      image: "/mopack1.png",
     },
     {
       title: "Industrial Bulk",
       description:
         "20kg & 25kg HDPE lined kraft paper bags with export-grade protection.",
-      image: "/products/moringa/bulk-pack.jpg",
+      image: "/mopack2.png",
     },
   ];
 
@@ -150,9 +151,11 @@ export default function HeroSection() {
             className="mt-10 flex flex-wrap gap-4"
           >
 
-            <button className="rounded-full bg-[#f1cb83] px-8 py-4 font-medium text-[#123524] shadow-xl transition-all duration-500 hover:-translate-y-1 hover:scale-105">
-              Request Moringa Export Quote
-            </button>
+            <Link href="/pages/inquiry">
+              <button className="rounded-full bg-[#f1cb83] px-8 py-4 font-medium text-[#123524] shadow-xl transition-all duration-500 hover:-translate-y-1 hover:scale-105">
+                Request Moringa Export Quote
+              </button>
+            </Link>
 
             <button className="rounded-full border border-[#123524] px-8 py-4 font-medium text-[#123524] transition-all duration-500 hover:bg-[#123524] hover:text-white">
               Download Specifications
@@ -279,7 +282,7 @@ export default function HeroSection() {
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
+            transition={{ duration: 0.1 }}
             viewport={{ once: true }}
             whileHover={{
               scale: 1.02,
@@ -322,8 +325,8 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{
-              duration: 0.7,
-              delay: 0.1,
+              duration: 0.1,
+              delay: 0.05,
             }}
             viewport={{ once: true }}
             whileHover={{ scale: 1.02 }}
@@ -351,8 +354,8 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{
-              duration: 0.7,
-              delay: 0.2,
+              duration: 0.1,
+              delay: 0.05,
             }}
             viewport={{ once: true }}
             whileHover={{ scale: 1.02 }}
@@ -380,8 +383,8 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{
-              duration: 0.7,
-              delay: 0.3,
+              duration: 0.1,
+              delay: 0.05,
             }}
             viewport={{ once: true }}
             whileHover={{ scale: 1.02 }}
@@ -665,7 +668,7 @@ export default function HeroSection() {
 
           </div>
 
-          <div className="hidden gap-4 md:flex">
+          {/* <div className="hidden gap-4 md:flex">
 
             <button className="flex h-12 w-12 items-center justify-center rounded-full border border-[#123524]/20 transition-all duration-300 hover:bg-[#123524] hover:text-white">
               <ArrowLeft size={18} />
@@ -675,7 +678,7 @@ export default function HeroSection() {
               <ArrowRight size={18} />
             </button>
 
-          </div>
+          </div> */}
 
         </div>
 
@@ -713,7 +716,7 @@ export default function HeroSection() {
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
                 />
 
-                {/* Overlay */}
+                {/* Overlay 
 
                 <div className="absolute inset-0 flex items-center justify-center bg-[#123524]/20 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
 
@@ -721,7 +724,7 @@ export default function HeroSection() {
                     View Specs
                   </span>
 
-                </div>
+                </div>*/}
 
               </div>
 
@@ -781,7 +784,7 @@ export default function HeroSection() {
 
             </ul>
 
-            <button className="group mt-10 flex items-center gap-2 font-semibold text-[#22724a]">
+            {/* <button className="group mt-10 flex items-center gap-2 font-semibold text-[#22724a]">
 
               Full Logistics Guide
 
@@ -790,7 +793,7 @@ export default function HeroSection() {
                 className="transition-transform duration-300 group-hover:translate-x-2"
               />
 
-            </button>
+            </button> */}
 
           </motion.div>
 

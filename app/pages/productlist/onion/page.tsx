@@ -11,6 +11,7 @@ import {
   Soup,
   Sandwich,
 } from "lucide-react";
+import Link from "next/link";
 
 const applications = [
   {
@@ -171,11 +172,13 @@ export default function OnionHero() {
 
             </button>
 
-            <button className="rounded-full border border-[#717973] px-10 py-4 font-semibold text-[#002b1a] transition-colors duration-300 hover:bg-[#e4e2dd]">
+            <Link href="/pages/inquiry" >
+              <button className="rounded-full border border-[#717973] px-10 py-4 font-semibold text-[#002b1a] transition-colors duration-300 hover:bg-[#e4e2dd]">
 
-              Bulk Pricing
+                Bulk Pricing
 
-            </button>
+              </button>
+            </Link>  
 
           </div>
 

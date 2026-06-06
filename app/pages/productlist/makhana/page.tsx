@@ -216,7 +216,7 @@ export default function MakhanaHero() {
           <div className="flex flex-col justify-center gap-4 md:flex-row">
 
             <Link
-              href="/inquiry"
+              href="/pages/inquiry"
               className="
                 inline-flex
                 items-center

@@ -133,7 +133,7 @@ export default function MushroomHero() {
           >
 
             <a
-              href="/inquiry"
+              href="/pages/inquiry"
               className="
                 group
                 inline-flex
