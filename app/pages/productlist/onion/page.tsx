@@ -371,7 +371,7 @@ export default function OnionHero() {
           >
 
             <Image
-              src="/products/onion/farm.jpg"
+              src="/onsource.png"
               alt="Ethical Sourcing"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -411,7 +411,7 @@ export default function OnionHero() {
           >
 
             <Image
-              src="/products/onion/washing.jpg"
+              src="/onwash.png"
               alt="Triple Wash"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -482,7 +482,7 @@ export default function OnionHero() {
           >
 
             <Image
-              src="/products/onion/laboratory.jpg"
+              src="/onlab.png"
               alt="Quality Labs"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"
