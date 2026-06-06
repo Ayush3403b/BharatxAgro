@@ -16,7 +16,7 @@ const products = [
     cert: "USDA Organic, EU Organic, GMP",
     shelfLife: "24 Months",
     image: "/moringa.png",
-    href: "/products/moringa",
+    href: "/pages/productlist/moringa",
   },
 
   {
@@ -28,7 +28,7 @@ const products = [
     cert: "APEDA, FSSAI",
     shelfLife: "18 Months",
     image: "/makhana.png",
-    href: "/products/makhana",
+    href: "/pages/productlist/makhana",
   },
 
   {
@@ -40,7 +40,7 @@ const products = [
     cert: "ISO 22000",
     shelfLife: "24 Months",
     image: "/onion.png",
-    href: "/products/onion-powder",
+    href: "/pages/productlist/onion",
   },
 
   {
@@ -52,7 +52,7 @@ const products = [
     cert: "GMP Certified",
     shelfLife: "12 Months",
     image: "/mushroom.png",
-    href: "/products/mushrooms",
+    href: "/pages/productlist/mushroom",
   },
 ];
 

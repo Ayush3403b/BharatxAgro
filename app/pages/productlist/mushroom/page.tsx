@@ -7,6 +7,8 @@ import { FaDroplet } from "react-icons/fa6";
 import { MdAir, MdSunny } from "react-icons/md";
 import { FiPackage } from "react-icons/fi";
 import { MdAcUnit } from "react-icons/md";
+import { MdOutlineVerifiedUser } from "react-icons/md";
+import { GiEcology } from "react-icons/gi";
 import { BsGlobeCentralSouthAsia } from "react-icons/bs";
 import ProductCTA from "@/components/pcta";
 
@@ -425,7 +427,7 @@ export default function MushroomHero() {
             "
           >
             <span className="material-symbols-outlined">
-              verified
+              <MdOutlineVerifiedUser size={32} />
             </span>
           </div>
 
@@ -455,7 +457,7 @@ export default function MushroomHero() {
             "
           >
             <span className="material-symbols-outlined">
-              eco
+              <GiEcology size={32} />
             </span>
           </div>
 

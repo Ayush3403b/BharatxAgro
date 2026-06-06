@@ -21,7 +21,7 @@ export default function ProductCTA({
   secondaryHref = "/inquiry",
 }: ProductCTAProps) {
   return (
-    <section className="mx-auto max-w-7xl px-6 py-32">
+    <section className="mx-auto max-w-7xl px-6 py-12">
 
       <motion.div
         initial={{
